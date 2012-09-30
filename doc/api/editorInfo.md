@@ -45,8 +45,6 @@ Returns the `rep` object.
 ## editorInfo.ace_doInsertUnorderedList(?)
 ## editorInfo.ace_doInsertOrderedList(?)
 ## editorInfo.ace_performDocumentApplyAttributesToRange()
-
-
 ## editorInfo.ace_getAuthorInfos()
 ## editorInfo.ace_performDocumentReplaceRange(?)
 ## editorInfo.ace_performDocumentReplaceCharRange(?)

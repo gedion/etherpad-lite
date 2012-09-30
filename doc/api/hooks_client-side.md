@@ -179,6 +179,7 @@ This hook gets called every time the client receives a message of type `name`. T
 Called from: src/static/js/ace2_inner.js
 
 Things in context:
+
 1. callstack - a bunch of information about the current action
 2. editorInfo - information about the user who is making the change
 3. rep - information about where the change is being made
