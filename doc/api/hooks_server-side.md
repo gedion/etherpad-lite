@@ -138,7 +138,7 @@ function handleMessage ( hook, context, callback ) {
 ```
 
 ## getLineHTMLForExport
-Called from: src/node/hooks/express/webaccess.js
+Called from: src/node/utils/ExportHtml.js
 
 Things in context:
 

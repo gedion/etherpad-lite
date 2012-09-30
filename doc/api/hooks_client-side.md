@@ -175,15 +175,15 @@ This hook gets called every time the client receives a message of type `name`. T
 
 `collab_client.js` has a pretty extensive list of message types, if you want to take a look.
 
-##aceStartLineAndCharForPoint/aceEndLineAndCharForPoint 
+##aceStartLineAndCharForPoint-aceEndLineAndCharForPoint 
 Called from: src/static/js/ace2_inner.js
 
 Things in context:
 1. callstack - a bunch of information about the current action
 2. editorInfo - information about the user who is making the change
 3. rep - information about where the change is being made
-4 . root - the span element of the current line
-5 . point - the starting/ending element where the cursor highlights
+4. root - the span element of the current line
+5. point - the starting/ending element where the cursor highlights
 6. documentAttributeManager - information about attributes in the document
 
 This hook is provided to allow a plugin to turn DOM node selection into [line,char] selection.
