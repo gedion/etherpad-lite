@@ -136,3 +136,15 @@ function handleMessage ( hook, context, callback ) {
   }
 };
 ```
+
+## getLineHTMLForExport
+Called from: src/node/hooks/express/webaccess.js
+
+Things in context:
+
+1. apool - pool object
+2. attribLine - line attributes
+3. text - line text
+
+This hook will allow a plug-in developer to re-write each line when exporting to HTML.
+
